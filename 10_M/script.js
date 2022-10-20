@@ -6,7 +6,5 @@ function fn1(){
     if (rd1.checked == true)
         window.location="../10_F/index.html";
     else if (rd2.checked == true)
-        window.location="../10_F/index.html";
-    
+        window.location="../10_F/index.html";   
 }
-

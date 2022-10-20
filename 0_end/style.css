@@ -1,6 +1,6 @@
 .grid-parent{
     display: grid;
-    grid-template-rows: 80px 80px auto auto 70px auto;
+    grid-template-rows: 80px 80px auto 150px 50px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -13,27 +13,35 @@
     display: grid;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-size: 18px;
+    background-color:white;
 }
 
 .instruction{
     font-size: 18px;
+    background-color: white;
 }
 
 .story{
     font-size: 18px;
+    background-color: white;
 }
 
 .question{
     font-size: 18px;
+    background-color: white;
 }
 
 .choices{
     font-size: 18px;
+    background-color: white;
+
 }
 
 .continue{
     margin-left: 10%;
+    margin-right: 10%;
 }
+
 
 .t_note{
     margin-left: 10%;
@@ -46,7 +54,7 @@ form {
 }
 
 .submitbutton{
-    background-color: #A0A0A0; /* Green */
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     border-radius: 12px;
@@ -55,4 +63,7 @@ form {
     text-align: center;
     font-size: 16px;
     cursor: pointer;
+    float: right;
 }
+
+

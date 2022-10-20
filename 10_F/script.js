@@ -1,8 +1,8 @@
 // Used to log all actions of the user
-alert("Error!! There seems to be some problems with the system.");
+alert("Error!! There seems to be some problems with the system. Click OK to continue.");
 $("#B").prop("checked", true);
 
 function fn1(){
-    window.location="https://link.webropolsurveys.com/S/8C4083062ECBCCA0";
+    window.location="../0_end/index.html";
 }
 

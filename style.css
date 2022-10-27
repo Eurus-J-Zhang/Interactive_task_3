@@ -1,6 +1,6 @@
 .grid-parent{
     display: grid;
-    grid-template-rows: 80px 80px auto auto 70px auto;
+    grid-template-rows: 30px 80px auto 100px 50px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -33,6 +33,7 @@
 
 .continue{
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 .t_note{
@@ -40,13 +41,14 @@
     margin-right: 10%;
 }
 
+
 form {
     margin-left: 10%;   
     line-height: 200%;
 }
 
 .submitbutton{
-    background-color: #A0A0A0; /* Green */
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     border-radius: 12px;
@@ -55,4 +57,5 @@ form {
     text-align: center;
     font-size: 16px;
     cursor: pointer;
+    float: right;
 }

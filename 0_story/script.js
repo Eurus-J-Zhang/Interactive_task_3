@@ -4,5 +4,5 @@ function fn1(){
     window.location="../1_M/index.html";
 }
 
-let f_n = 0;
-localStorage.setItem('t_times',f_n);
+let t_n = 0;
+localStorage.setItem('t_times',t_n);

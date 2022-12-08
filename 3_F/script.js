@@ -1,5 +1,5 @@
 // Used to log all actions of the user
-$("#A").prop("checked", true);
+$("#B").prop("checked", true);
 
 function fn1(){
     // var rd1 = document.getElementById("A");
